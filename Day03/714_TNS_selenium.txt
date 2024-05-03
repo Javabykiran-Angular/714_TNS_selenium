@@ -1,0 +1,142 @@
+Last Lecture Agenda
+1 What is Application?
+
+	It has 2 Types
+		1 Standalone application
+			1 CUI Application
+				Character user interface/ console based application
+				
+			2 GUI Application
+				- Graphical user interface 
+				e.g calculator,excel ,word 
+			
+		2 Web Application/ Enterprise application
+			e.g facebook.com,google.com,amazon
+
+2 Difference Between Manual testing & automation testing 
+
+	1 Speed 
+		Manual testing => Manual testing requires human resources and is time consuming as well.
+		automation testing => Automation Testing is faster than a manual testing.
+	2 Exploratory Testing 
+		Manual testing =>It is possible in case of Manual Testing
+		automation testing => Automation will not allow any random testing.
+	3 Investment 
+		Manual testing => The initial investment for manual testing is lower.
+		automation testing => The initial investment for automation testing is higher.
+	4 Reliability
+		Manual testing => Manual testing won’t be as accurate as there is a possibility of the human error.
+		automation testing => Automation Testing is more reliable, as it is performed by tools and scripts.
+	5 Cost-effective
+		Manual testing => Manual Testing is not cost effective as ROI is lower.
+		automation testing =>Automation Testing is cost effective.
+	6 Test Reports
+		Manual testing =>Manual Tests are usually updated in an Excel/Word, and test results are not readily available.
+		automation testing =>In automation testing, all stakeholders check test execution results by logging into automation system.
+	7 Performance Testing
+		Manual testing => Performance Testing is difficult to do manually.
+		automation testing => Performance Tests like Stress Testing, Load Testing, Spike Testing, etc. have to be done by an automation tool only.
+	8 Set up
+		Manual testing => Manual testing needs have a straightforward test execution setup.
+		automation testing => It needs less complex test execution set up.
+	9 Deadlines
+		Manual testing => Manual Testing has a higher chances of missing out the test deadlines.
+		automation testing => Automated Tests will not have risks of missing out any test deadlines.
+	10 When to Use?
+		Manual testing => It will be suitable for Usability, Exploratory, and Adhoc Testing.
+		automation testing => It is well suited for Regression Testing, Load Testing, Performance Testing, or repeatable functional test cases.
+		
+3 what is Selenium?
+	- It is automation S/W / tool 
+	- It is used to test for web Application Testing/automation 
+	- With Less time u can execute the test case 
+	
+4 Advantage of Selenium
+	- It is used for Web Application Testing 
+	- It support all cross browser platform 
+	- It is fast Execution time.
+	- it supports most of programming lang. (core java, c#,python,ruby,javascript)
+	
+5 Disaadvantage of selenium
+	- It is more time to implement
+	- we can not test images,pdf file , captcha etc 
+	- we can not test mobile native application 
+	- we can not test desktop application (cal,doc,excel)
+6 which lang it support?
+	1 core java, 
+	2 c#,
+	3 python,
+	4 ruby
+	5 javascript.
+
+7 Simple Automation demo
+	System.setProperty("webdriver.chrome.driver","chromedriver.exe");
+	
+	WebDriver driver=new ChromeDriver();
+	driver.get("https://www.google.com");
+	...
+	
+	
+	
+	
+			
+summary & Interview Questions
+1 What is Application?
+2 Difference Between Manual testing & automation testing 
+3 what is Selenium?
+4 Advantage of Selenium
+5 Disaadvantage of selenium
+6 which lang it support?
+
+
+Today's Lecture Agenda
+1 What is meaning of 
+
+WebDriver driver = new ChromeDriver();
+
+Ans=>
+We are creating ChromeDriver instance/object & storing it in a variable(reference variable) called driver which is type of WebDriver interface
+it is used to access a webdriver method to automate the HTML element
+
+
+2 Why we are not writing like that?
+
+ChromeDriver driver = new ChromeDriver();
+
+This is Correct statement, Since chromedriver is a class and we can create object from it.But we don't prefer writing this way because we don't limit to our testing to only chrome browser and we don't want to declare multiple instance of driver.
+
+3 Why we write ?
+
+Webdriver driver =new ChromeDriver();
+
+
+Ans => In Real time world/industry we work with multiple browser not only single chrome browser, if i want execute for firefox driver so we can work with them so for that we have change to Webdriver driver =new FirefoxDriver();
+
+now Here ChromeDriver class & FirefoxDriver  class has different instance. it has its own extra methods so if we use ChromeDriver driver =new ChromeDriver(); it affects to test firefox browser testing 
+
+so for this all reason we use 
+
+
+4 WebDriver Method 
+	1 get()
+	2 getTitle()
+	3 getCurrentUrl()
+	4 getPageSource()
+	
+
+
+
+Summary
+1 What is meaning of 
+
+WebDriver driver = new ChromeDriver();
+
+2 Why we are not writing like that?
+
+ChromeDriver driver = new ChromeDriver();
+
+3 Why we write ?
+
+Webdriver driver =new ChromeDriver();
+
+4 WebDriver Methods?
