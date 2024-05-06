@@ -1,0 +1,86 @@
+Last Lecture Agenda
+1 What is meaning of 
+
+WebDriver driver = new ChromeDriver();
+
+Ans=>
+We are creating ChromeDriver instance/object & storing it in a variable(reference variable) called driver which is type of WebDriver interface
+it is used to access a webdriver method to automate the HTML element
+
+
+2 Why we are not writing like that?
+
+ChromeDriver driver = new ChromeDriver();
+
+This is Correct statement, Since chromedriver is a class and we can create object from it.But we don't prefer writing this way because we don't limit to our testing to only chrome browser and we don't want to declare multiple instance of driver.
+
+3 Why we write ?
+
+Webdriver driver =new ChromeDriver();
+
+
+Ans => In Real time world/industry we work with multiple browser not only single chrome browser, if i want execute for firefox driver so we can work with them so for that we have change to Webdriver driver =new FirefoxDriver();
+
+now Here ChromeDriver class & FirefoxDriver  class has different instance. it has its own extra methods so if we use ChromeDriver driver =new ChromeDriver(); it affects to test firefox browser testing 
+
+so for this all reason we use 
+
+
+4 WebDriver Method 
+	
+	1 get()
+	
+	driver.get("....")
+	
+	2 getTitle()
+		driver.getTitle();
+	3 getCurrentUrl()
+		
+	4 getPageSource()
+	
+	
+	
+
+
+
+Summary
+1 What is meaning of 
+
+WebDriver driver = new ChromeDriver();
+
+2 Why we are not writing like that?
+
+ChromeDriver driver = new ChromeDriver();
+
+3 Why we write ?
+
+Webdriver driver =new ChromeDriver();
+
+4 WebDriver Methods?
+
+
+Today's Lecture Agenda
+1 WebDriver Methods
+	findElement()
+2 WebElement 
+	- It is interface 
+	- to access any particular web element to hold its object
+
+		WebElement strElement= driver.findElement(By.xpath("...."));
+		String strdata= strElement.getText()
+		
+		 WebElement emailElement= driver.findElement(By.xpath("..."));
+		 emailElement.sendKeys("...");
+		 ...
+		 driver.findElement(By.xpath("...")).click();
+		 
+	
+3 WebElement Methods 
+	1 getText();
+	2 sendKeys("...")
+	3 click();
+
+summary & Interview Questions
+1 Which are webdriver methods & explain it?
+2 What is WebElement?
+3 Why we use WebElement?
