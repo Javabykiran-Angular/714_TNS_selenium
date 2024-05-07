@@ -1,0 +1,41 @@
+Last Lecture Agenda
+1 WebDriver Methods
+	findElement()
+	- It returns WebElement 
+2 WebElement 
+	- It is interface 
+	- to access any particular web element to hold its object
+
+		WebElement strElement= driver.findElement(By.xpath("...."));
+		String strdata= strElement.getText()
+		
+		 WebElement emailElement= driver.findElement(By.xpath("..."));
+		 emailElement.sendKeys("...");
+		 ...
+		 driver.findElement(By.xpath("...")).click();
+		 
+	
+3 WebElement Methods 
+	1 getText();
+	2 sendKeys("...")
+	3 click();
+
+summary & Interview Questions
+1 Which are webdriver methods & explain it?
+2 What is WebElement?
+3 Why we use WebElement?
+
+
+Today's Lecture Agenda
+1 How to use Alert in selenium 
+2 Modify The code 
+
+summary & Interview Questions
+1 How to use Alert in selenium 
+
+
+
+//*[@id="mobile"]
+
+//*[@id="mobile"]
+/html/body/div/div[1]/section[2]/div/div/div/form/div[3]/div/input
