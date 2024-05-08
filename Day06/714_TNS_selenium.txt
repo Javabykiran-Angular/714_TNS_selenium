@@ -1,0 +1,29 @@
+Last Lecture Agenda
+1 How to use Alert in selenium 
+2 Modify The code 
+
+summary & Interview Questions
+1 How to use Alert in selenium 
+
+
+Today's Lecture Agenda
+1 Locators
+	- To loacte your web element => to get the handle/Object of particular Web Element
+	1 Id
+	2 name
+	3 linkText 
+		- It generally used for anchor tag <a href=""> Home </a>
+	4 partialLinkText
+	5 tag name 
+	=> pending=> 
+	6 Attributes
+	7 class name 
+	8 CssSelector
+	9 Dynamic xpath => pending 
+
+summary & Interview Questions
+1 What is locators
+2 Why we use locators?
+3 When we use ID locators?
+
+
