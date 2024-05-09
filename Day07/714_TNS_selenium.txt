@@ -1,0 +1,56 @@
+Last Lecture Agenda
+1 Locators
+	- To loacte your web element => to get the handle/Object of particular Web Element
+	1 Id
+		driver.findElement(By.id("name")).sendKeys("....")
+	2 name
+	driver.findElement(By.name("name")).sendKeys("....")
+	3 linkText 
+		- It generally used for anchor tag <a href=""> Home </a>
+		
+		driver.findElement(By.linkText("Register a memeber")).click();
+		driver.findElement(By.partialLinkText("Register ")).click();
+		
+	4 partialLinkText
+	5 tag name 
+		List<Wenelement> list= driver.findElements(By.tagname("input"));
+		
+		for(int i=0;i<list.size();i++){
+			WebElement element= list.get(i);
+			
+			String strData= element.getAttribute("placeholder");
+			
+			if(strData.equalIgnoreCase("email")){
+				element.sendKeys("...");
+			}
+			
+		}
+		
+	6 Attributes
+	=> pending=> 
+	
+	7 class name 
+	8 CssSelector
+	9 Dynamic xpath => pending 
+
+summary & Interview Questions
+1 What is locators
+2 Why we use locators?
+3 When we use ID locators?
+
+
+Today's Lecture Agenda
+1 Locators
+	=> pending=> 
+	
+	7 class name 
+	8 CssSelector
+	9 Dynamic xpath => pending 
+2 Navigation Command
+
+summary & Interview Questions
+1 What is locators
+2 Why we use locators?
+3 When we use ID locators?
+4 How to Navigate in selenium?
+
