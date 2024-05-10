@@ -1,0 +1,30 @@
+Last Lecture Agenda
+1 Locators
+	=> pending=> 
+	
+	7 class name 
+		
+		driver.findElement(By.class("btn")).click();
+	
+	8 CssSelector
+		driver.findElement(by.cssSelector("#email")).sendKeys("hh");
+		driver.findElement(by.cssSelector("input[type='password']")).sendKeys("hh");
+	9 Dynamic xpath => pending 
+2 Navigation Command
+	driver.navigate().back()
+	driver.navigate().forward();
+	driver.navigate().refresh();
+
+summary & Interview Questions
+1 What is locators
+2 Why we use locators?
+3 When we use ID locators?
+4 How to Navigate in selenium?
+
+
+Today's Lecture Agenda
+1 Window handle in selenium 
+
+summary & Interview Questions
+1 How to Handle Window?
+2 How to switch window?
