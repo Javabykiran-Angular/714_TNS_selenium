@@ -1,0 +1,13 @@
+Last Lecture Agenda
+1 Test1
+
+summary & Interview Questions
+NA
+
+Today's Lecture Agenda
+1 WebTables
+
+summary & Interview Questions
+1 What is WebTables?
+2 How To Automate WebTables?
+3 How to read data from tables?
