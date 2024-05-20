@@ -1,0 +1,35 @@
+Last Lecture Agenda
+1 iframe (HTML Tag )=> Frame
+
+
+summary & Interview Questions
+1 How to Access iframe?
+2 What is iframe & where to be used?
+
+Today's Lecture Agenda
+1 Wait in Selenium
+2 implicit wait
+	- It wait tootal web application
+3 explicit wait 
+	- it is used to wait a particular web element 
+WebDriberWait wait=new WebDriberWait(driver,5);
+	WebElement element= wait.until(ExpectedConditions.visibilityOfElementLocated(By.name(...)));
+4 What is Synchronization
+In Selenium, synchronization refers to the process of managing the timing and interaction between the test script and the web application being tested. It ensures that the test script waits for specific conditions to be met before performing actions or assertions on the web elements.
+	
+	Web applications often have dynamic content, asynchronous behavior, and delays in loading or processing. As a result, test scripts may need to wait for elements to become visible, enabled, or updated before interacting with them or verifying their state.
+	
+	Here are some common synchronization techniques used in Selenium:
+	
+	1 Implicit Waits: Implicit waits instruct the Selenium WebDriver to wait for a certain amount of time for elements to become available before throwing an exception. The WebDriver will implicitly wait for the specified time before attempting to find or interact with an element.
+
+	2 Explicit Waits: Explicit waits provide more control over waiting conditions. Testers can define custom conditions using the ExpectedConditions class and specify a maximum wait time. Explicit waits wait until the condition is met or a timeout occurs.
+	
+	3 Thread.sleep(): Although not a recommended approach, Thread.sleep() is a general-purpose Java method that pauses the execution of the script for a specified time. It introduces fixed delays and is less flexible compared to other synchronization techniques.
+
+webform_c_egege
+
+
+webform_c_uubqu
+
+
