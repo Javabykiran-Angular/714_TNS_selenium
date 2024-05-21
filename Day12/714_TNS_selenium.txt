@@ -1,0 +1,54 @@
+Last Lecture Agenda
+1 Wait in Selenium
+2 implicit wait
+	- It wait tootal web application
+3 explicit wait 
+	- it is used to wait a particular web element 
+WebDriberWait wait=new WebDriberWait(driver,5);
+	WebElement element= wait.until(ExpectedConditions.visibilityOfElementLocated(By.name(...)));
+4 What is Synchronization
+	In Selenium, synchronization refers to the process of managing the timing and interaction between the test script and the web application being tested. It ensures that the test script waits for specific conditions to be met before performing actions or assertions on the web elements.
+	
+	Web applications often have dynamic content, asynchronous behavior, and delays in loading or processing. As a result, test scripts may need to wait for elements to become visible, enabled, or updated before interacting with them or verifying their state.
+	
+	Here are some common synchronization techniques used in Selenium:
+	
+	1 Implicit Waits: Implicit waits instruct the Selenium WebDriver to wait for a certain amount of time for elements to become available before throwing an exception. The WebDriver will implicitly wait for the specified time before attempting to find or interact with an element.
+
+	2 Explicit Waits: Explicit waits provide more control over waiting conditions. Testers can define custom conditions using the ExpectedConditions class and specify a maximum wait time. Explicit waits wait until the condition is met or a timeout occurs.
+	
+	3 Thread.sleep(): Although not a recommended approach, Thread.sleep() is a general-purpose Java method that pauses the execution of the script for a specified time. It introduces fixed delays and is less flexible compared to other synchronization techniques.
+
+webform_c_egege
+
+
+webform_c_uubqu
+
+Today's Lecture Agenda
+1 why we use dynamic xpath
+	- It is used to locate ur webelement
+	- It allows you to locate elements on a web page based on their dynamic characteristics, such as changing IDs, names, classes, or other attributes.
+ 
+ 1 absolute xpath
+		- '/' -> used single slash to calculate 
+		- it starts from its root node or base node => /html 
+		- we can not get shortest path from absolute xpath  
+		- If any required is updated(enhancement) from client in web application then it fails to locate ur webElement
+ 2 relative xpath
+	 - // => relative path used double slash to calculate
+	 - it calculate nearest node to locate ur webElement
+	 - It get shortest path of particular webElement
+	 <div id="maindiv">
+		<div>
+			<p>
+	 - we get shortest xpath 
+		
+		//tagname[@id='value']
+		@id,@name,@class
+
+summary & Interview Questions
+1 What is dynamic xpath?
+2 what is absolute xpath?
+3 what is relative xpath?
+
+
