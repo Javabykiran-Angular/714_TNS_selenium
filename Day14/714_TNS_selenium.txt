@@ -1,0 +1,30 @@
+Last Lecture Agenda
+1 Dynamic xpath continue
+	to get nearest node 
+	conatins()
+	starts-with()
+	
+	name2b557f0c
+	name92b03acd
+	
+summary & Interview Questions
+1 What is dynamic xpath?
+2 what is absolute xpath?
+3 what is relative xpath?
+
+Today's Lecture Agenda
+1 Following => 
+	e.g (
+	//div[@id='__next']/div[2]//following::li)[2]/a
+	
+3 Child =>  
+	e.g. (//div[@id='__next']/div[2]//child::li)[3]/a
+
+
+	
+summary & Interview Questions
+1 How Following Works?
+2 How to calculate Dynamic xpath using child?
+
+
+
