@@ -1,0 +1,35 @@
+Last Lecture Agenda
+1 Following => 
+	e.g (
+	//div[@id='__next']/div[2]//following::li)[2]/a
+	
+3 Child =>  
+	e.g. (//div[@id='__next']/div[2]//child::li)[3]/a
+
+
+	
+summary & Interview Questions
+1 How Following Works?
+2 How to calculate Dynamic xpath using child?
+
+Today's Lecture Agenda
+1 Action Class
+2 JavascriptExecutor
+
+		int a;
+		
+		long a1=(long)a;
+
+		JavascriptExecutor js=(JavascriptExecutor)driver;
+		
+		js.executeScript("arguments[0].scrollIntoView(true);",element);
+		
+		#country_id>ul>li:nth-child(100)
+		
+
+
+summary & Interview Questions
+1 How to use scroll bar to window
+
+
+
