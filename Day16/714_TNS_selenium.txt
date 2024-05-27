@@ -1,0 +1,39 @@
+Last Lecture Agenda
+1 Action Class
+	
+	
+	
+2 JavascriptExecutor
+
+		int a;
+		
+		long a1=(long)a;
+
+		JavascriptExecutor js=(JavascriptExecutor)driver;
+		
+		js.executeScript("arguments[0].scrollIntoView(true);",element);
+		
+		#country_id>ul>li:nth-child(100)
+		
+
+
+summary & Interview Questions
+1 How to use scroll bar to window
+
+
+
+Today's Lecture Agenda
+1 Properties file 
+	- when u want use config data then we use properties file 
+	 - web application url name ,driver name, ....
+	- data is in key & value(data) format 
+	- myfile.properties 
+		
+2 TakesaScreenShot
+	- Interface 
+
+
+summary & Interview Questions
+1 What id use of Properties file
+2 How to use properties file 
+3 How to take screenshot?
