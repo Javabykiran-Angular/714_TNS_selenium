@@ -1,0 +1,50 @@
+Last Lecture Agenda
+1 Properties file 
+	- when u want use config data then we use properties file 
+	 - web application url name ,driver name, ....
+	- data is in key & value(data) format 
+	- myfile.properties 
+		
+		
+	try{	
+	
+	FileInputStream fis=new FileInputStream("...");	
+		Properties prop=new Properties();
+		prop.load(fis);
+		prop.getProperty("url")
+	}catch(FileNotFoundException e){
+	...
+	}catch(Exception e){
+	...
+		}
+		
+2 TakesaScreenShot
+	- Interface 
+	
+	TakeaScreenShot tks=(TakeaScreenShot)driver;
+	File source= tks.getScreshotAs(OutputType.File);
+	
+	File target=new File("...");
+	
+	try{
+	FileHandler.copy(source,target);
+	}...
+
+
+summary & Interview Questions
+1 What id use of Properties file
+2 How to use properties file 
+3 How to take screenshot?
+
+
+
+Today's Lecture Agenda
+1 Excel Sheet 
+	Why we use Excel sheet?
+		- It is used for test data to fetch
+2 Apache POI Lib => 3rd party lib 5.2.3
+
+
+summary & Interview Questions
+1 how to use Excel Sheet
+2 What is purpose of Excel Sheet
