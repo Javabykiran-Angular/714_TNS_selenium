@@ -1,0 +1,23 @@
+Last Lecture Agenda
+1 Testng
+	- to execute Automation test cases 
+	- It generate report for your test cases 
+	- multiple test cases you can run 
+2 How to use Testng in maven 
+3 testng.xml 
+
+
+summary & Interview Questions
+1 What is Testng?
+2 How to use Testng in maven ?
+
+Today's Lecture Agenda
+1 testNG Annotations
+2 Freamwork Integration
+
+summary & Interview Questions
+1 What is use of @BeforeClass?
+2 What is use of @BeforeMEthod?
+3 Explain Life cyle of testNG annotation?
+4 Explain different type of annotations?
+
