@@ -1,0 +1,33 @@
+Last Lecture Agenda
+1 testNG Annotations
+	beforeSuite,afterSuite
+	beforeTest, AfterTest
+	beforeClass,AfterClass
+	beforeMethod,AfterMethod
+	@Test
+2 Freamwork Integration
+
+summary & Interview Questions
+1 What is use of @BeforeClass?
+2 What is use of @BeforeMEthod?
+3 Explain Life cyle of testNG annotation?
+4 Explain different type of annotations?
+
+Today's Lecture Agenda
+1 Freamwork Integration continue
+2 Assert
+	- To execute ur test case 
+	- by default it is used Hard assert 
+	
+	
+3 Hard Assert
+	it execute only one test case 
+4 Soft Assert
+ - It Execute multiple assert in one test case 
+
+summary & Interview Questions
+1 Why we use assert?
+2 What is hard assert?
+3 What is soft Assert?
+4 Difference between hard assert & soft assert?
+
