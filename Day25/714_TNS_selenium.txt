@@ -1,0 +1,23 @@
+Last Lecture Agenda
+1 Freamwork Integration continue
+2 Assert
+	- To execute ur test case 
+	- by default it is used Hard assert 
+	
+	
+3 Hard Assert
+	it execute only one test case 
+4 Soft Assert
+ - It Execute multiple assert in one test case 
+
+summary & Interview Questions
+1 Why we use assert?
+2 What is hard assert?
+3 What is soft Assert?
+4 Difference between hard assert & soft assert?
+
+
+Today's Lecture Agenda
+1 Practice Session
+summary & Interview Questions
+1 NA
