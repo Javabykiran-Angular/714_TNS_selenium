@@ -1,0 +1,15 @@
+Last Lecture Agenda
+1 Practice Session
+summary & Interview Questions
+1 NA
+
+
+Today's Lecture Agenda
+1 Data Provider
+	 - It sends multiple data to any test case for testing
+2 @DataProvider
+
+
+summary & Interview Questions
+1 Why we use data provider?
+2 Explain @DataProvider annotation?
